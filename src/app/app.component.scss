@@ -1,0 +1,17 @@
+.text-content {
+  margin: 50px auto;
+
+  height: 65%;
+  width: 80%;
+}
+
+.controls {
+  @extend .text-content;
+  text-align: center;
+  height: unset;
+}
+
+.buttons {
+  margin: 10px;
+  width: 30%;
+}
